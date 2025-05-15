@@ -1,0 +1,21 @@
+1747299023377	geckodriver	INFO	Listening on 127.0.0.1:54394
+1747299026431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kirub\\AppData\\Local\\Temp\\rust_mozprofileS4UUun"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1747299027353	Marionette	INFO	Marionette enabled
+1747299027695	Marionette	INFO	Listening on port 54406
+WebDriver BiDi listening on ws://127.0.0.1:54395
+Read port: 54406
+1747299027969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 2275
+DevTools listening on ws://127.0.0.1:54395/devtools/browser/565daa32-b74f-430f-ac05-5cf26e97e1c4
+JavaScript warning: https://www.gstatic.com/og/_/js/k=og.asy.en_US.wGVi1b6jCUs.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTtEGRbOgUtVSZHuIMlPXcihqUDgew, line 361: Script terminated by timeout at:
+isVisible@https://www.gstatic.com/og/_/js/k=og.asy.en_US.wGVi1b6jCUs.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTtEGRbOgUtVSZHuIMlPXcihqUDgew:361:104
+cr@https://www.gstatic.com/og/_/js/k=og.asy.en_US.wGVi1b6jCUs.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTtEGRbOgUtVSZHuIMlPXcihqUDgew:356:442
+zg@https://www.gstatic.com/og/_/js/k=og.asy.en_US.wGVi1b6jCUs.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTtEGRbOgUtVSZHuIMlPXcihqUDgew:363:28
+Ig@https://www.gstatic.com/og/_/js/k=og.asy.en_US.wGVi1b6jCUs.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTtEGRbOgUtVSZHuIMlPXcihqUDgew:109:106
+b@https://www.gstatic.com/og/_/js/k=og.asy.en_US.wGVi1b6jCUs.2019.O/rt=j/m=_ac,_awd,ada,lldp,qads,abld/exm=/d=1/ed=1/rs=AA2YrTtEGRbOgUtVSZHuIMlPXcihqUDgew:106:471
+
+1747299052802	Marionette	INFO	Stopped listening on port 54406
+Dynamically enable window occlusion 1
