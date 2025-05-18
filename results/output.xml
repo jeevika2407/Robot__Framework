@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-16T15:44:52.543000" rpa="false" schemaversion="5">
+<suite id="s1" name="ROBOTFRAMEWORKPRACTICE" source="D:\sc_python_selenium\ROBOTFRAMEWORKPRACTICE">
+<suite id="s1-s1" name="Tests" source="D:\sc_python_selenium\ROBOTFRAMEWORKPRACTICE\Tests">
+<suite id="s1-s1-s1" name="Test Alert" source="D:\sc_python_selenium\ROBOTFRAMEWORKPRACTICE\Tests\test_alert.robot">
+<test id="s1-s1-s1-t1" name="Handling the alerts" line="6">
+<kw name="Open the Browser with url">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:44:53.256741" level="INFO">Opening browser 'chrome' to base url 'https://demo.automationtesting.in/Alerts.html'.</msg>
+<arg>https://demo.automationtesting.in/Alerts.html</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-16T15:44:53.255899" elapsed="2.337544"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-16T15:44:55.594149" elapsed="4.531772"/>
+</kw>
+<kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
+<arg>3</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2025-05-16T15:45:00.126928" elapsed="0.003824"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:45:00.133609" level="INFO">Clicking element 'xpath://a[@href='#OKTab']'.</msg>
+<arg>xpath://a[@href='#OKTab']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:45:00.131445" elapsed="0.231928"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:45:00.365303" level="INFO">Clicking button 'xpath://button[@class='btn btn-danger']'.</msg>
+<arg>xpath://button[@class='btn btn-danger']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:45:00.364074" elapsed="0.183563"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-16T15:45:05.549952" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-16T15:45:00.548234" elapsed="5.002474"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:44:53.253090" elapsed="12.298044"/>
+</kw>
+<kw name="Select the alert with ok button">
+<kw name="Alert Should Be Present" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:45:05.554555" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<arg>I am an alert box!</arg>
+<arg>ACCEPT</arg>
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<status status="PASS" start="2025-05-16T15:45:05.553019" elapsed="0.015817"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-16T15:45:10.571115" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-16T15:45:05.569520" elapsed="5.002515"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:45:05.551865" elapsed="5.020798"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-16T15:45:10.573763" elapsed="2.413335"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:44:53.249759" elapsed="19.738588"/>
+</test>
+<status status="PASS" start="2025-05-16T15:44:52.619893" elapsed="20.372266"/>
+</suite>
+<status status="PASS" start="2025-05-16T15:44:52.611971" elapsed="20.383240"/>
+</suite>
+<status status="PASS" start="2025-05-16T15:44:52.556807" elapsed="20.442467"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="ROBOTFRAMEWORKPRACTICE" id="s1" pass="1" fail="0" skip="0">ROBOTFRAMEWORKPRACTICE</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">ROBOTFRAMEWORKPRACTICE.Tests</stat>
+<stat name="Test Alert" id="s1-s1-s1" pass="1" fail="0" skip="0">ROBOTFRAMEWORKPRACTICE.Tests.Test Alert</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
