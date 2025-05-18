@@ -1,20 +1,19 @@
 *** Settings ***
-Documentation    a resource file with reusable keywords and variables.
-Library    SeleniumLibrary
+Documentation     A resource file with reusable keywords
+Library           SeleniumLibrary
 
 *** Variables ***
-${valid_username}    Admin
-${valid_password}    admin123
-${invalid_username}    Ad
-${invalid_password}    123
-${url}    https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+${un}             Admin
+${pw}             admin123
+${invalid-un}     123
+${invalid-pw}     123
+${url}            https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 *** Keywords ***
-Open the browser with URL
-    Create Webdriver    Chrome
-    Go To    ${url}
+Open the Browser with url
+    Open Browser    ${url}    chrome
     Maximize Browser Window
-    Set Browser Implicit Wait    5
+    Set Selenium Implicit Wait    5
 
-Close browser
-    Close browser
+Close the browser session
+    Close Browser
